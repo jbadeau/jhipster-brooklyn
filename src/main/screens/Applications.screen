@@ -3,9 +3,6 @@
   <widgets xsi:type="model:Label" id="1" x="32" y="16" text="JHipster Brooklyn" measuredWidth="175" measuredHeight="36">
     <font size="20px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="4" x="1000" y="22" text="Sign in with GitHub" measuredWidth="130" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="6" x="623" y="229" measuredWidth="6" measuredHeight="36">
     <font size="20px" bold="false"/>
   </widgets>
@@ -22,6 +19,10 @@
     <items x="91" y="0" width="36" height="23" text="About"/>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="12" x="32" y="22" width="175" height="23" measuredWidth="175" measuredHeight="23" link="Home.screen"/>
+  <widgets xsi:type="model:Icon" id="13" x="1105" y="18" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Label" id="14" x="1000" y="20" text="Jose Badeau" measuredWidth="88" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
