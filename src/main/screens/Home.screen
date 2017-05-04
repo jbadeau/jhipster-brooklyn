@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="1" x="32" y="16" text="JHipster Brooklyn" measuredWidth="175" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="4" x="1000" y="22" text="Sign in with GitHub" measuredWidth="130" measuredHeight="23" link="Applications.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="167" y="168" text="Bootstrap your next idea with JHipster Brooklyn" measuredWidth="918" measuredHeight="62">
+    <font size="40px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="623" y="229" measuredWidth="6" measuredHeight="36">
+    <font size="20px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="306" y="233" text="Easily create, build and deploy the first version of your application today." measuredWidth="640" measuredHeight="36">
+    <font size="20px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="543" y="376" text="Sign Up" measuredWidth="167" measuredHeight="64">
+    <font size="40px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="9" x="252" y="22" text="Blog,Help,About" measuredWidth="128" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="27" height="23" text="Blog"/>
+    <items x="45" y="0" width="28" height="23" text="Help"/>
+    <items x="91" y="0" width="36" height="23" text="About"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="10" x="32" y="22" width="175" height="23" measuredWidth="175" measuredHeight="23" link=""/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

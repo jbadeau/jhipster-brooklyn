@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="1" x="32" y="16" text="JHipster Brooklyn" measuredWidth="175" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="9" x="252" y="22" text="Blog,Help,About" measuredWidth="128" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="27" height="23" text="Blog"/>
+    <items x="45" y="0" width="28" height="23" text="Help"/>
+    <items x="91" y="0" width="36" height="23" text="About"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="11" x="1105" y="18" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Label" id="12" x="1000" y="20" text="Jose Badeau" measuredWidth="88" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="40" x="262" y="196" text="Please wait or check back in about 10 minutes to view your application" measuredWidth="473" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:ProgressBar" id="41" x="263" y="233" width="466" measuredWidth="466" measuredHeight="18" value="25" background="#6aa84f"/>
+  <widgets xsi:type="model:Label" id="43" x="252" y="80" text="Brooklyn" measuredWidth="172" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="252" y="146" measuredWidth="6" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="45" x="64" y="72" text="&#xA;(bg:green)|Brooklyn" measuredWidth="58" measuredHeight="46">
+    <font/>
+    <items x="0" y="2" width="58" height="21"/>
+    <items x="0" y="23" width="58" height="21" text="(bg:green)|Brooklyn"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="46" x="32" y="22" width="175" height="23" measuredWidth="175" measuredHeight="23" link="Home.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

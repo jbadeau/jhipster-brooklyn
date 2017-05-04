@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="1" x="32" y="16" text="JHipster Brooklyn" measuredWidth="175" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="9" x="252" y="22" text="Blog,Help,About" measuredWidth="128" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="27" height="23" text="Blog"/>
+    <items x="45" y="0" width="28" height="23" text="Help"/>
+    <items x="91" y="0" width="36" height="23" text="About"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="11" x="1105" y="18" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Label" id="12" x="1000" y="20" text="Jose Badeau" measuredWidth="88" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="252" y="80" text="Monolithic Project - Preview" measuredWidth="537" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="252" y="146" text="Please confirm your selection" measuredWidth="199" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="22" x="40" y="186" text="1" measuredWidth="31" measuredHeight="31" background="#6aa84f" link="MonolithicWizardStep1.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="23" x="40" y="237" text="2" measuredWidth="31" measuredHeight="31" background="#6aa84f">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="24" x="40" y="288" text="3" measuredWidth="31" measuredHeight="31" background="#6aa84f" link="MonolithicWizardStep3.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="78" y="190" text="Application" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="78" y="241" text="Source Control" measuredWidth="85" measuredHeight="23" link="MonolithicWizardStep2.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="78" y="292" text="Continuous Integration" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="29" x="40" y="340" text="4" measuredWidth="31" measuredHeight="31" background="#6aa84f" link="MonolithicWizardStep4.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="78" y="344" text="Deployment" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="36" x="252" y="212" width="533" height="141" text="Application" measuredWidth="533" measuredHeight="141">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="37" x="254" y="384" width="533" height="141" text="Source Control" measuredWidth="533" measuredHeight="141">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="38" x="252" y="560" width="533" height="141" text="Continuous Integration" measuredWidth="533" measuredHeight="141">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="39" x="252" y="736" width="533" height="141" text="Deployment" measuredWidth="533" measuredHeight="141">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="721" y="928" text="Confirm" measuredWidth="64" measuredHeight="25" background="#6aa84f" link="Brooklyn.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="41" x="665" y="928" text="Back" measuredWidth="45" measuredHeight="25" link="MonolithicWizardStep4.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="42" x="32" y="22" width="175" height="23" measuredWidth="175" measuredHeight="23" link="Home.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
